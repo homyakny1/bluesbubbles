@@ -194,9 +194,9 @@ a:focus, a:hover {
   padding-bottom: 15%;
 }
 
-.download-section {
+.services-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/services-bg.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

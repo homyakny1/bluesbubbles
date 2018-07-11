@@ -27,6 +27,7 @@ h3,
 h4,
 h5,
 h6 {
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: 0 0 35px;
@@ -44,9 +45,10 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   margin: 0 0 25px;
+  font-family: 'Sintony', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -75,7 +77,7 @@ a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 #mainNav .navbar-toggler {
@@ -237,8 +239,8 @@ a:hover {
 @media (min-width: 992px) {
   
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 220px;
+    padding-bottom: 220px;
   }
 }
 
@@ -250,6 +252,11 @@ a:hover {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 0;
+}
+
+.btn:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .btn-default {

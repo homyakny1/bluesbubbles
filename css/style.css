@@ -361,7 +361,7 @@ img::-moz-selection {
 }
 #schedule{
     border: solid 2px;
-    margin: 0 0 35px;
+    margin: 0 0 25px;
     width: 300px;
-    padding-top: 35px;
+    padding-top: 15px;
 }

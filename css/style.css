@@ -42,7 +42,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-shadow: 3px 3px rgba(0, 0, 0, .3);
     font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin: 0 0 35px;
@@ -57,7 +56,7 @@ h6 {
 .card {
     height: 82%;
     margin-top: 25%;
-    background-color: rgba(255, 255, 255, .274)
+    background-color: rgba(255, 255, 255, .2)
 }
 .card:hover{
     box-shadow: 0 14px 20px rgba(0, 0, 0, .10), 0 10px 10px rgba(0,0,0,0.10);
@@ -145,12 +144,12 @@ a:hover {
     #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, .3);
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
         background: #000
     }
     #mainNav .nav-link.active {
         outline: 0;
-        background-color: rgba(255, 255, 255, .3)
+        background-color: rgba(255, 255, 255, .2)
     }
     #mainNav .nav-link.active:hover {
         color: #fff
@@ -167,7 +166,8 @@ a:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
+    height: 100%;
 }
 
 .masthead .intro-body {
@@ -229,7 +229,7 @@ a:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
 }
 
 .school-section {
@@ -242,7 +242,7 @@ a:hover {
 }
 
 #school-container {
-    background-color: rgba(255, 255, 255, .356);
+    background-color: rgba(255, 255, 255, .2);
     border-radius: 5px;
     padding: 5%
 }
@@ -267,7 +267,7 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .2);
     color: rgba(0, 0, 0, .5)
 }
 
@@ -358,4 +358,10 @@ img::-moz-selection {
     .ser-img {
         width: 8vh
     }
+}
+#schedule{
+    border: solid 2px;
+    margin: 0 0 35px;
+    width: 300px;
+    padding-top: 35px;
 }

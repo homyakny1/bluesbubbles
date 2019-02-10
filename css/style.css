@@ -375,3 +375,7 @@ img::-moz-selection {
     width: 300px;
     padding-top: 15px;
 }
+#h1_small{
+    font-size: 20px;
+    display: grid;
+}
